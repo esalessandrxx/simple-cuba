@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="@string/title_inicio" />
+
+        <item
+            android:id="@+id/servicios"
+            android:icon="@drawable/ic_drawer_servicios"
+            android:title="@string/title_servicios" />
+
+        <item
+            android:id="@+id/entumovil"
+            android:icon="@drawable/ic_drawer_entumovil"
+            android:title="@string/title_entumovil" />
+
+        <item
+            android:id="@+id/telepuntos"
+            android:icon="@drawable/ic_drawer_telepuntos"
+            android:title="@string/title_telepuntos" />
+
+        <item
+            android:id="@+id/soporte"
+            android:icon="@drawable/ic_drawer_support"
+            android:title="@string/title_support" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_drawer_ajustes"
+            android:title="@string/title_settings" />
+
+        <item
+            android:id="@+id/terminos"
+            android:icon="@drawable/ic_drawer_terminos"
+            android:title="@string/title_terminos" />
+
+        <item
+            android:id="@+id/politicas"
+            android:icon="@drawable/ic_drawer_politicas"
+            android:title="@string/title_politicas" />
+
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/ic_drawer_invite"
+            android:title="@string/title_share" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_drawer_about"
+            android:title="@string/title_about" />
+
+    </group>
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="MaterialSwitch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+    
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog.Monet" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:background">@drawable/custom_dialog_preference_m3</item>
+    </style>
+
+    <style name="Widget.Material3.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="circleImageView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

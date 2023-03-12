@@ -1,0 +1,123 @@
+<resources>
+
+    <string-array name="array_adelanta">
+        <item>25.00 cup</item>
+        <item>50.00 cup</item>
+    </string-array>
+
+    <string-array name="home_screen">
+        <item>Consultas</item>
+        <item>Recarga</item>
+        <item>Transferir</item>
+        <item>Adelanta</item>
+    </string-array>
+
+    <string-array name="home_screen_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="sim_predeterminada">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+
+    <string-array name="values_sim_predeterminada">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="ui_theme">
+        <item>Según el Sistema</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+
+    <string-array name="values_ui_theme">
+        <item>DEFAULT</item>
+        <item>LIGHT</item>
+        <item>DARK</item>
+    </string-array>
+
+    <string-array name="reporte">
+        <item>ERROR</item>
+        <item>SUGERENCIA</item>
+    </string-array>
+
+    <string-array name="list_perfil">
+        <item>Agregar Imagen</item>
+        <item>Eliminar Imagen</item>
+    </string-array>
+
+    <string-array name="pelota">
+        <item>Actualización</item>
+        <item>Tabla de posiciones</item>
+    </string-array>
+
+    <string-array name="periodicos">
+        <item>Suscribirse</item>
+        <item>Darse de Baja</item>
+    </string-array>
+
+    <string-array name="cambio">
+        <item>EUR - Euro</item>
+        <item>USD - Dólar USA</item>
+        <item>MXN - Peso Mexicano</item>
+        <item>CAD - Dólar Canadiense</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>CHF</item>
+        <item>DKK</item>
+        <item>NOK</item>
+        <item>SEK</item>
+    </string-array>
+    <string-array name="futbol">
+        <item>BundesLiga</item>
+        <item>Champion</item>
+        <item>Copa del Rey</item>
+        <item>La Liga</item>
+        <item>Liga 1</item>
+        <item>Serie A</item>
+        <item>Premier</item>
+    </string-array>
+    <string-array name="horozcopo">
+        <item>Aries</item>
+        <item>Tauro</item>
+        <item>Geminis</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagitario</item>
+        <item>Capricornio</item>
+        <item>Acuario</item>
+        <item>Piscis</item>
+    </string-array>
+    <string-array name="tiempo">
+        <item>VLC</item>
+        <item>GTM</item>
+        <item>HLG</item>
+        <item>ART</item>
+        <item>GRM</item>
+        <item>LHA</item>
+        <item>MAY</item>
+        <item>IJU</item>
+        <item>CMG</item>
+        <item>CFG</item>
+        <item>PRL</item>
+        <item>SCU</item>
+        <item>SSP</item>
+        <item>LTU</item>
+        <item>MTZ</item>
+        <item>CAV</item>
+    </string-array>
+    <string-array name="apagon">
+        <item>Bloque 1</item>
+        <item>Bloque 2</item>
+        <item>Bloque 3</item>
+        <item>Bloque 4</item>
+    </string-array>
+</resources>

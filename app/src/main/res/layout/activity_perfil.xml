@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinator">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_height="320dp"
+            android:layout_width="match_parent"
+            app:expandedTitleTextColor="@android:color/white"
+            app:expandedTitleTextAppearance="?textAppearanceHeadlineLarge"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            android:id="@+id/collapsingTbl">
+
+            <ImageView
+                android:id="@+id/image_perfil"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/ic_perfil_user" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                app:layout_collapseMode="pin"
+                app:navigationIconTint="@android:color/white"
+                android:id="@+id/toolbar" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:id="@+id/nested_scroll_view">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp">
+
+            <android.widget.TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/colorPrimary"
+                android:text="Perfil"
+                android:textAppearance="?textAppearanceTitleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_perfil_nombre"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusBottomEnd="30dp"
+                app:boxCornerRadiusTopStart="30dp"
+                app:boxCornerRadiusTopEnd="30dp"
+                app:boxCornerRadiusBottomStart="30dp"
+                style="?attr/textInputFilledStyle"
+                app:helperText="@string/description_username"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/ic_perfil_user"
+                app:errorEnabled="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="Nombre">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_perfil_nombre"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_perfil_numero"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusBottomEnd="30dp"
+                app:boxCornerRadiusTopStart="30dp"
+                app:boxCornerRadiusTopEnd="30dp"
+                app:boxCornerRadiusBottomStart="30dp"
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/ic_perfil_numero"
+                app:prefixText="+53"
+                app:errorEnabled="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="Número">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_perfil_numero"
+                    android:inputType="phone"
+                    android:maxLength="8"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_perfil_clave"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusBottomEnd="30dp"
+                app:boxCornerRadiusTopStart="30dp"
+                app:boxCornerRadiusTopEnd="30dp"
+                app:boxCornerRadiusBottomStart="30dp"
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/ic_perfil_clave"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="Clave de transferencia">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_perfil_clave"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_perfil_nauta"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusBottomEnd="30dp"
+                app:boxCornerRadiusTopStart="30dp"
+                app:boxCornerRadiusTopEnd="30dp"
+                app:boxCornerRadiusBottomStart="30dp"
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:startIconDrawable="@drawable/ic_perfil_correo"
+                app:suffixText="@nauta.com.cu"
+                app:errorEnabled="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="Cuenta nauta">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_perfil_nauta"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttom_save_perfil"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Guardar"
+                android:layout_gravity="center_horizontal" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="?attr/colorPrimary"
+                android:layout_gravity="center_horizontal">
+
+                <android.widget.ImageView
+                    android:id="@+id/image_qr"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        app:layout_anchor="@+id/appbar"
+        app:layout_anchorGravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_perfil_add_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

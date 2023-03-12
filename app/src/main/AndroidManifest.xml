@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nova.simple">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Application">
+        <activity
+            android:name="com.nova.simple.activity.MainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+
+        <activity
+            android:name="com.nova.simple.activity.SettingsActivity"
+            android:label="@string/app_name_settings"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.profile.PerfilActivity"
+            android:label="Mi Perfil"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.activity.CrashActivity"
+            android:label="Crash"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.activity.SoporteActivity"
+            android:label="Soporte"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.activity.BienvenidaActivity"
+            android:label="Bienvenida/o"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.profile.ScannerPerfil"
+            android:label="Código QR"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <activity
+            android:name="com.nova.simple.activity.AboutActivity"
+            android:label="Acerca de"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+
+        <service
+            android:name="com.nova.simple.services.FloatingWindow"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

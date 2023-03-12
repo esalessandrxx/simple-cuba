@@ -1,0 +1,77 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="general"
+        android:title="General"
+        app:iconSpaceReserved="false">
+
+        <MultiSelectListPreference
+            app:key="@string/home_key"
+            app:icon="@drawable/select_home"
+            app:title="@string/title_preference_home"
+            app:summary="@string/summary_preference_home"
+            app:entries="@array/home_screen"
+            app:entryValues="@array/home_screen_values"
+            app:defaultValue="@array/home_screen_values"
+            app:dialogTitle="@string/title_preference_home" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/biometric_key"
+            android:widgetLayout="@layout/layout_material_switch"
+            android:summary="@string/summary_preference_biometric"
+            android:title="@string/title_preference_biometric"
+            android:icon="@drawable/ic_preference_biometric" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/floating_key"
+            android:widgetLayout="@layout/layout_material_switch"
+            android:summary="@string/summary_preference_floating"
+            android:title="@string/title_preference_floating"
+            android:icon="@drawable/ic_preference_trafic_data" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/autocomplete_key"
+            android:widgetLayout="@layout/layout_material_switch"
+            android:summary="@string/summary_preference_autocomplete"
+            android:title="@string/title_preference_autocomplete"
+            android:icon="@drawable/ic_preference_autocomplete" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ui"
+        android:title="UI"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.ListPreference
+            android:dialogTitle="@string/title_preference_ui"
+            android:entries="@array/ui_theme"
+            android:entryValues="@array/values_ui_theme"
+            android:key="@string/ui_theme_key"
+            android:summary="@string/summary_preference_ui"
+            android:title="@string/title_preference_ui"
+            app:defaultValue="DEFAULT"
+            app:icon="@drawable/ic_preference_theme" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sim"
+        android:title="SIM"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.ListPreference
+            android:dialogTitle="@string/title_preference_sim"
+            android:entries="@array/sim_predeterminada"
+            android:entryValues="@array/values_sim_predeterminada"
+            android:key="@string/sim_key"
+            android:summary="@string/summary_preference_sim"
+            android:title="@string/title_preference_sim"
+            app:defaultValue="0"
+            app:icon="@drawable/ic_preference_sim" />
+    </PreferenceCategory>
+</PreferenceScreen>

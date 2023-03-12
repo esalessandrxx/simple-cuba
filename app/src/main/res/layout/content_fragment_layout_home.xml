@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:id="@+id/layout_home">
+
+    <com.google.android.material.card.MaterialCardView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:cardElevation="1dp"
+         app:strokeWidth="0dp"
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:layout_marginTop="10dp"
+         app:cardCornerRadius="20dp">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textAppearance="?textAppearanceTitleMedium"
+                 android:text="@string/home_categoria_recarga" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 app:counterEnabled="true"
+                 app:boxCornerRadiusBottomEnd="30dp"
+                 android:layout_marginTop="10dp"
+                 app:boxCornerRadiusTopStart="30dp"
+                 app:boxStrokeWidth="0dp"
+                 app:endIconCheckable="true"
+                 app:boxCornerRadiusTopEnd="30dp"
+                 app:endIconMode="custom"
+                 android:hint="@string/hint_codigo_recarga"
+                 app:boxCornerRadiusBottomStart="30dp"
+                 app:boxStrokeWidthFocused="0dp"
+                 app:endIconDrawable="@drawable/ic_home_recarga_qr_code"
+                 style="?attr/textInputFilledStyle"
+                 app:errorEnabled="true"
+                 android:id="@+id/input_recarga"
+                 app:counterMaxLength="16">
+
+                <com.google.android.material.textfield.TextInputEditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:imeOptions="actionDone"
+                     android:singleLine="true"
+                     android:maxLength="16"
+                     android:maxLines="1"
+                     android:ems="10"
+                     android:inputType="number"
+                     android:id="@+id/edit_recarga" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/button_recarga"
+                 android:text="@string/buttom_recarga" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:cardElevation="1dp"
+         app:strokeWidth="0dp"
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:layout_marginTop="10dp"
+         app:cardCornerRadius="20dp">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textAppearance="?textAppearanceTitleMedium"
+                 android:text="@string/home_categoria_transferir" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 app:boxCornerRadiusBottomEnd="30dp"
+                 android:layout_marginTop="10dp"
+                 app:boxCornerRadiusTopStart="30dp"
+                 app:boxStrokeWidth="0dp"
+                 app:endIconCheckable="true"
+                 app:boxCornerRadiusTopEnd="30dp"
+                 app:endIconMode="custom"
+                 android:hint="@string/hint_numero_transferir"
+                 app:boxCornerRadiusBottomStart="30dp"
+                 app:boxStrokeWidthFocused="0dp"
+                 app:endIconDrawable="@drawable/ic_home_transferir_contacto"
+                 style="?attr/textInputFilledStyle"
+                 app:errorEnabled="true"
+                 android:id="@+id/input_transferir_numero">
+
+                <com.google.android.material.textfield.TextInputEditText
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:imeOptions="actionNext"
+                     android:singleLine="true"
+                     android:maxLength="8"
+                     android:maxLines="1"
+                     android:ems="10"
+                     android:inputType="phone"
+                     android:id="@+id/edit_transferir_numero" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     app:boxCornerRadiusBottomEnd="30dp"
+                     app:boxCornerRadiusTopStart="30dp"
+                     app:boxStrokeWidth="0dp"
+                     app:boxCornerRadiusTopEnd="30dp"
+                     android:hint="@string/hint_password_transferir"
+                     app:boxCornerRadiusBottomStart="30dp"
+                     app:boxStrokeWidthFocused="0dp"
+                     android:layout_marginRight="5dp"
+                     style="?attr/textInputFilledStyle"
+                     app:passwordToggleEnabled="true"
+                     app:errorEnabled="true"
+                     android:layout_weight="1"
+                     android:id="@+id/input_transferir_password">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:imeOptions="actionNext"
+                         android:singleLine="true"
+                         android:maxLength="4"
+                         android:maxLines="1"
+                         android:ems="10"
+                         android:inputType="numberPassword"
+                         android:id="@+id/edit_transferir_password" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     app:boxCornerRadiusBottomEnd="30dp"
+                     android:layout_marginLeft="5dp"
+                     app:boxCornerRadiusTopStart="30dp"
+                     app:boxStrokeWidth="0dp"
+                     app:boxCornerRadiusTopEnd="30dp"
+                     android:hint="@string/hint_cantidad_transferir"
+                     app:boxCornerRadiusBottomStart="30dp"
+                     app:boxStrokeWidthFocused="0dp"
+                     style="?attr/textInputFilledStyle"
+                     app:errorEnabled="true"
+                     android:layout_weight="1"
+                     android:id="@+id/input_transferir_monto">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                         android:layout_height="wrap_content"
+                         android:layout_width="match_parent"
+                         android:imeOptions="actionDone"
+                         android:singleLine="true"
+                         android:maxLines="1"
+                         android:ems="10"
+                         android:inputType="numberDecimal"
+                         android:id="@+id/edit_transferir_monto" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/button_transferir"
+                 android:text="@string/buttom_transferir" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="85dp"
+         app:cardElevation="1dp"
+         app:strokeWidth="0dp"
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:layout_marginTop="10dp"
+         app:cardCornerRadius="20dp">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textAppearance="?textAppearanceTitleMedium"
+                 android:text="@string/home_categoria_adelanta" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 app:boxCornerRadiusBottomEnd="30dp"
+                 android:layout_marginTop="10dp"
+                 app:boxCornerRadiusTopStart="30dp"
+                 app:boxStrokeWidth="0dp"
+                 app:endIconCheckable="true"
+                 app:boxCornerRadiusTopEnd="30dp"
+                 app:endIconMode="dropdown_menu"
+                 android:hint="@string/hint_cantidad_adelanta"
+                 app:boxCornerRadiusBottomStart="30dp"
+                 app:boxStrokeWidthFocused="0dp"
+                 style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                 app:errorEnabled="true"
+                 android:id="@+id/input_adelanta">
+
+                <AutoCompleteTextView
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:imeOptions="actionDone"
+                     android:singleLine="true"
+                     android:maxLines="1"
+                     android:ems="10"
+                     android:inputType="none"
+                     app:simpleItems="@array/array_adelanta"
+                     android:id="@+id/autocompleteAdelanta" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/buttonAdelanta"
+                 android:text="@string/buttom_adelanta" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

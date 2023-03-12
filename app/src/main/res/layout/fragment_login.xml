@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="85dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?textAppearanceBodyMedium"
+                    android:text="@string/title_description_nauta"
+                    android:layout_gravity="center_horizontal" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:boxCornerRadiusBottomEnd="30dp"
+                    android:layout_marginTop="20dp"
+                    app:boxCornerRadiusTopStart="30dp"
+                    app:boxStrokeWidth="0dp"
+                    app:boxCornerRadiusTopEnd="30dp"
+                    app:endIconMode="none"
+                    android:hint="@string/hint_nauta_user"
+                    app:boxCornerRadiusBottomStart="30dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    app:errorEnabled="true"
+                    android:id="@+id/inputUser">
+
+                    <AutoCompleteTextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:id="@+id/autocompleteUser" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:boxCornerRadiusBottomEnd="30dp"
+                    android:layout_marginTop="10dp"
+                    app:boxCornerRadiusTopStart="30dp"
+                    app:boxStrokeWidth="0dp"
+                    app:boxCornerRadiusTopEnd="30dp"
+                    android:hint="@string/hint_nauta_password"
+                    app:boxCornerRadiusBottomStart="30dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    style="?attr/textInputFilledStyle"
+                    app:passwordToggleEnabled="true"
+                    app:errorEnabled="true"
+                    android:id="@+id/inputPassword">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:id="@+id/editTextPassword" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/button_conectar"
+                    android:text="@string/buttom_nauta_login"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

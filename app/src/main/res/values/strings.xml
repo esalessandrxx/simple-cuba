@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">SIMple</string>
+    <string name="app_name_settings">Configuración</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_cuenta">Cuentas</string>
+    <string name="title_compra">Compras</string>
+    <string name="title_llamada">Llamadas</string>
+    <string name="title_nauta">Nauta</string>
+    <string name="title_servicios">Servicios SMS</string>
+    <string name="title_entumovil">EnTuMovil</string>
+    <string name="title_telepuntos">Telepuntos</string>
+    <string name="title_faq">Preguntas y Respuestas</string>
+    <string name="title_terminos">Términos y Condiciones</string>
+    <string name="title_politicas">Políticas de Privacidad</string>
+    <string name="title_settings">Configuración</string>
+    <string name="title_support">Soporte</string>
+    <string name="title_about">Acerca de</string>
+    <string name="title_share">Invitar Amigos</string>
+    <string name="title_tab_planes">Planes</string>
+    <string name="title_tab_paquete">Paquetes</string>
+    <string name="title_tab_amigo">Amigo</string>
+    <string name="open_drawer">Abrir menú lateral</string>
+    <string name="close_drawer">Cerrar menú lateral</string>
+    <string name="title_tarifa_por_consumo">Tarifa por Consumo</string>
+    <string name="subtitle_tarifa_por_consumo">Cuando habilitas la tarifa por consumo, al navegar con datos móviles, se descuenta directamente del saldo principal. Es una opción más costosa por lo que te recomendamos comprar un Paquete o un Plan Combinado.</string>
+    <string name="invite_user">Estoy usando SIMple para gestionar los servicios de ETECSA. ¡Únete! Descárgala aquí: https://www.apklis.cu/application/</string>
+    <string name="shortcuts_disable">shortcuts disable</string>
+    <string name="shorcuts_long_label">shorcuts long label</string>
+    <string name="shorcuts_short_label">shorcuts short label</string>
+    <string name="view_telepuntos">https://www.google.com/maps/search/ETECSA/</string>
+    <!-- Planes -->
+    <string name="title_categoria_combinados">Combinados</string>
+    <string name="title_categoria_lte">LTE</string>
+    <string name="title_categoria_bolsas">Bolsas</string>
+    <string name="title_plan_basico">1.4 GB</string>
+    <string name="subtitle_plan_basico">Plan Básico</string>
+    <string name="title_plan_medio">3.5 GB</string>
+    <string name="subtitle_plan_medio">Plan Medio</string>
+    <string name="title_plan_extra">8 GB</string>
+    <string name="subtitle_plan_extra">Plan Extra</string>
+    <string name="title_lte_a">1 GB</string>
+    <string name="subtitle_lte_a">Solo LTE</string>
+    <string name="title_lte_b">2.5 GB</string>
+    <string name="subtitle_lte_b">Solo LTE</string>
+    <string name="title_lte_c">16 GB</string>
+    <string name="subtitle_lte_c">Solo LTE</string>
+    <string name="title_diaria">200 MB</string>
+    <string name="subtitle_diaria">Solo LTE por 24h</string>
+    <string name="title_mensajeria">600 MB</string>
+    <string name="subtitle_mensajeria">Correo nauta y toDus</string>
+    <!-- Home -->
+    <string name="home_categoria_transferir">Transferir</string>
+    <string name="home_categoria_recarga">Recarga</string>
+    <string name="home_categoria_adelanta">Adelanta</string>
+    <string name="buttom_adelanta">Solicitar adelanto</string>
+    <string name="hint_cantidad_adelanta">Cantidad</string>
+    <string name="hint_numero_transferir">Número</string>
+    <string name="hint_cantidad_transferir">Monto</string>
+    <string name="hint_password_transferir">Clave</string>
+    <string name="buttom_transferir">Transferir</string>
+    <string name="hint_codigo_recarga">Cupón de Recarga</string>
+    <string name="buttom_recarga">Recargar</string>
+    <string name="consulta_saldo">Saldo</string>
+    <string name="consulta_pospago">Pospago</string>
+    <string name="consulta_bonos">Bonos</string>
+    <string name="consulta_datos">Datos</string>
+    <!-- Paquetes -->
+    <string name="paquete_categoria_minutos">Minutos</string>
+    <string name="paquete_categoria_mensajes">Mensajes</string>
+    <string name="title_estado_minutos">Minutos</string>
+    <string name="title_estado_mensajes">Mensajes</string>
+    <string name="subtitle_estado_minutos">Consultar estado</string>
+    <string name="subtitle_estado_mensajes">Consultar estado</string>
+    <string name="title_voz_a">5 Min</string>
+    <string name="title_voz_b">10 Min</string>
+    <string name="title_voz_c">15 Min</string>
+    <string name="title_voz_d">25 Min</string>
+    <string name="title_voz_e">40 Min</string>
+    <!-- sms -->
+    <string name="title_sms_a">20 SMS</string>
+    <string name="title_sms_b">50 SMS</string>
+    <string name="title_sms_c">90 SMS</string>
+    <string name="title_sms_d">120 SMS</string>
+    <!-- Plan Amigo -->
+    <string name="title_estado_amigo">Estado</string>
+    <string name="subtitle_estado_amigo">Estado de su plan</string>
+    <string name="title_lista_amigo">Servicio</string>
+    <string name="subtitle_lista_amigo">Consultar servicio</string>
+    <string name="title_activar_amigo">Activar</string>
+    <string name="subtitle_activar_amigo">Activar servicio</string>
+    <string name="title_desactivar_amigo">Desactivar</string>
+    <string name="subtitle_desactivar_amigo">Desactivar servicio</string>
+    <string name="title_agregar_amigo">Añadir</string>
+    <string name="subtitle_agregar_amigo">Añadir número</string>
+    <string name="title_eliminar_amigo">Eliminar</string>
+    <string name="subtitle_eliminar_amigo">Eliminar número</string>
+    <!-- Llamadas -->
+    <string name="title_categoria_llamadas">Emergencia</string>
+    <string name="title_llamadas_asterisco">Asterisco 99</string>
+    <string name="subtitle_llamadas_asterisco">Llamar contacto</string>
+    <string name="title_llamadas_privado">Privado</string>
+    <string name="subtitle_llamadas_privado">Llamar contacto</string>
+    <string name="title_llamadas_atencion_cliente">Atención al cliente</string>
+    <string name="title_llamadas_nauta_hogar">Nauta Hogar</string>
+    <string name="title_llamadas_reporte_tfa">Reparaciones TFA</string>
+    <string name="title_llamadas_quejas">Quejas y reclamos</string>
+    <string name="title_llamadas_antidroga">Antidrogas</string>
+    <string name="title_llamadas_ambulancia">Ambulancia</string>
+    <string name="title_llamadas_bomberos">Bomberos</string>
+    <string name="title_llamadas_policia">Policía</string>
+    <string name="title_llamadas_maritima">Emergencia marítima</string>
+    <!-- Servicios -->
+    <string name="title_servicio_tipo_red">Tipo de red</string>
+    <string name="title_servicio_activa_4g">Activar 4G</string>
+    <string name="title_servicio_sim">Mi SIM</string>
+    <string name="title_servicio_mms">Activar MMS</string>
+    <string name="title_servicio_turismo">Turismo</string>
+    <string name="title_servicio_oferta">Oferta</string>
+    <string name="title_servicio_tarifa">Tarifas</string>
+    <string name="title_servicio_cancelar_infomovil">Baja Infomovil</string>
+    <!-- EnTuMovil -->
+    <string name="title_entumovil_clima">Clima</string>
+    <string name="title_entumovil_cambio">Cambio</string>
+    <string name="title_entumovil_pelota">Pelota</string>
+    <string name="title_entumovil_mlb">MLB</string>
+    <string name="title_entumovil_futbol">Fútbol</string>
+    <string name="title_entumovil_dhl">DHL</string>
+    <string name="title_entumovil_elect">Electricidad</string>
+    <string name="title_entumovil_embajada">Embajada</string>
+    <string name="title_entumovil_horoscopo">Horóscopo</string>
+    <string name="title_entumovil_tiempo">Tiempo</string>
+    <string name="title_entumovil_frases_martianas">Frases Martianas</string>
+    <string name="title_entumovil_prensa_latina">Prensa Latina</string>
+    <string name="title_entumovil_cubadebate">Cubadebate</string>
+    <string name="title_entumovil_granma">Granma</string>
+    <string name="title_entumovil_vuelos">Vuelos</string>
+    <string name="title_entumovil_apagon">Apagón</string>
+    <!-- Nauta -->
+    <string name="title_description_nauta">Inicia sesión en tu cuenta</string>
+    <string name="hint_nauta_user">Usuario</string>
+    <string name="hint_nauta_password">Contraseña</string>
+    <string name="buttom_nauta_login">Iniciar sesión</string>
+    <string name="user_passw_error">Usuario o contraseña incorrectos</string>
+    <!-- Cuentas -->
+    <string name="buttom_bonos">Promoción</string>
+    <string name="swippe_text">Desliza para actualizar</string>
+    <string name="title_categoria_internet">Paquetes</string>
+    <!-- Ajustes Preferences -->
+    <string name="preference_categoria_general">General</string>
+    <string name="title_preference_home">Inicio</string>
+    <string name="summary_preference_home">Elija cuáles opciones desea mostrar en la pantalla de inicio</string>
+    <string name="title_preference_sim">SIM</string>
+    <string name="summary_preference_sim">Seleccione la línea por la que desea efectuar las acciones en la aplicación (no compatible con el apartado de Cuentas)</string>
+    <string name="title_preference_ui">Tema</string>
+    <string name="summary_preference_ui">%s</string>
+    <string name="ui_theme_key">ui_key</string>
+    <string name="sim_key">sim_key</string>
+    <string name="title_preference_biometric">Seguridad</string>
+    <string name="summary_preference_biometric">Use su huella o código de desbloqeo para proteger sus datos en la aplicación</string>
+    <string name="biometric_key">biometric</string>
+    <string name="title_dialog_huella">Verifica tu Identidad</string>
+    <string name="subtitle_dialog_huella">Para acceder a "Mi Perfil" verifique que eres el dueño del móvil.</string>
+    <string name="title_preference_floating">Tráfico de datos</string>
+    <string name="summary_preference_floating">Mostrar burbuja flotante con el tráfico de datos actual</string>
+    <string name="floating_key">window</string>
+    <string name="home_key">home</string>
+    <string name="title_preference_autocomplete">Autocompletado</string>
+    <string name="summary_preference_autocomplete">Rellenar algunos servicios con la información brindada en Mi Perfil</string>
+    <string name="autocomplete_key">autocompletado</string>
+    <!-- Validate TextWatcher -->
+    <string name="error_input_transfer_numero_digitos">El número debe tener 8 dígitos</string>
+    <string name="error_input_transfer_clave_digitos">Faltan dígitos</string>
+    <string name="error_input_transfer_numero_vacio">Inserte un número</string>
+    <string name="error_transferir_centavos">Para transferir centavos déje la cantidad en blanco</string>
+    <!-- Header saludo -->
+    <string name="title_good_morning">¡Buenos días!</string>
+    <string name="title_good_afternoon">¡Buenas tardes!</string>
+    <string name="title_good_night">¡Buenas noches!</string>
+    <!-- Info plan basico -->
+    <string name="plan_basico">Con la compra de este plan obtendrá:\n\n– 600 MB para todas las redes.\n– 800 MB solo para la red 4G/LTE.\n– 300 MB para navegación nacional.\n– 15 minutos y 20 mensajes para la red nacional.\n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="plan_basico_precio">110 CUP</string>
+    <!-- Info plan medio -->
+    <string name="plan_medio">Con la compra de este plan obtendrá: \n\n– 1.5 GB para todas las redes.\n– 2 GB solo para la red 4G/LTE.\n– 300 MB para navegación nacional.\n– 35 minutos y 40 mensajes para la red nacional.\n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="plan_medio_precio">250 CUP</string>
+    <!-- Info plan extra -->
+    <string name="plan_extra">Con la compra de este plan obtendrá: \n\n– 3.5 GB para todas las redes.\n– 4.5 GB solo para la red 4G/LTE.\n– 300 MB para navegación nacional.\n– 75 minutos y 80 mensajes para la red nacional.\n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="plan_extra_precio">500 CUP</string>
+    <!-- Info paquete A -->
+    <string name="paquete_a">Con la compra de este plan obtendrá: \n\n– 1 GB solo para la red 4G/LTE.\n– 300 MB para navegación nacional. \n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="paquete_a_precio">100 CUP</string>
+    <!-- Info paquete B -->
+    <string name="paquete_b">Con la compra de este plan obtendrá: \n\n– 2.5 GB solo para la red 4G/LTE.\n– 300 MB para navegación nacional. \n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="paquete_b_precio">200 CUP</string>
+    <!-- Info paquete C -->
+    <string name="paquete_c">Con la compra de este plan obtendrá: \n\n– 4.5 GB para todas las redes.\n– 12 GB solo para la red 4G/LTE. \n– 300 MB para navegación nacional. \n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="paquete_c_precio">950 CUP</string>
+    <!-- Info diaria -->
+    <string name="diaria">Con la compra de este plan obtendrá: \n\n– 200 MB solo para la red 4G/LTE. \n\nLa validez es de 24 horas a partir de su primera utilización.</string>
+    <string name="diaria_precio">25 CUP</string>
+    <!-- Info mensajeria -->
+    <string name="mensajeria">Con la compra de este plan obtendrá: \n\n– 600 MB solo para el correo nauta y la aplicación cubana de mensajería toDus. \n\nLa validez es de 30 días a partir de su primera utilización.</string>
+    <string name="mensajeria_precio">25 CUP</string>
+    <string name="button_compras">Adquirir</string>
+    <!-- Info minutos -->
+    <string name="minutos_5">Con la compra te ahorras 1.25 CUP. Los minutos son válidos 30 días a partir de efectuada la compra. Podrá realizar llamadas hacia la red móvil/fija y recibir desde la red fija.</string>
+    <string name="minutos_5_precio">35.50 CUP</string>
+    <string name="minutos_10">Con la compra te ahorras 1.50 CUP. Los minutos son válidos 30 días a partir de efectuada la compra. Podrá realizar llamadas hacia la red móvil/fija y recibir desde la red fija.</string>
+    <string name="minutos_10_precio">72.50 CUP</string>
+    <string name="minutos_15">Con la compra te ahorras 1.75 CUP. Los minutos son válidos 30 días a partir de efectuada la compra. Podrá realizar llamadas hacia la red móvil/fija y recibir desde la red fija.</string>
+    <string name="minutos_15_precio">105 CUP</string>
+    <string name="minutos_25">Con la compra te ahorras 2.25 CUP. Los minutos son válidos 30 días a partir de efectuada la compra. Podrá realizar llamadas hacia la red móvil/fija y recibir desde la red fija.</string>
+    <string name="minutos_25_precio">162.50 CUP</string>
+    <string name="minutos_40">Con la compra te ahorras 2.50 CUP. Los minutos son válidos 30 días a partir de efectuada la compra. Podrá realizar llamadas hacia la red móvil/fija y recibir desde la red fija.</string>
+    <string name="minutos_40_precio">250 CUP</string>
+    <!-- Info mensajes -->
+    <string name="plan_sms_20">Con la compra de este paquete obtienes 20 mensajes para uso dentro del territorio nacional. Los mensajes son válidos por 30 días a partir de efectuada la compra.</string>
+    <string name="plan_sms_50">Con la compra de este paquete obtienes 50 mensajes para uso dentro del territorio nacional. Los mensajes son válidos por 30 días a partir de efectuada la compra.</string>
+    <string name="plan_sms_90">Con la compra de este paquete obtienes 90 mensajes para uso dentro del territorio nacional. Los mensajes son válidos por 30 días a partir de efectuada la compra.</string>
+    <string name="plan_sms_120">Con la compra de este paquete obtienes 120 mensajes para uso dentro del territorio nacional. Los mensajes son válidos por 30 días a partir de efectuada la compra.</string>
+    <string name="plan_sms_20_precio">15.00 CUP</string>
+    <string name="plan_sms_50_precio">30.00 CUP</string>
+    <string name="plan_sms_90_precio">50.00 CUP</string>
+    <string name="plan_sms_120_precio">60.00 CUP</string>
+    <!-- Info Amigo -->
+    <string name="activar_amigo">Con el Plan Amigos podrás llamar a tus tres contactos favoritos con una tarifa preferencial de 5.00 CUP/min, en el horario de 7:00 a.m.- 10:59 p.m. La activación del servicio tiene un costo de 25.00 CUP. Los números a suscribir deben ser nacionales, siendo las primeras tres suscripciones libres de costo y a partir de la 4ta. se cobrará 2,50 CUP por cada una.</string>
+    <string name="activar_amigo_precio">25.00 CUP</string>
+    <string name="desactivar_amigo">Al desactivar su Plan Amigo dejará de disfrutar de las bondades que este le ofrece, para volver a hacer uso del mismo deberá volver a pagar 25.00 CUP.</string>
+    <string name="desactivar_amigo_precio">Libre de costo</string>
+    <string name="agregar_amigo">Los números a suscribir deben ser nacionales, siendo las primeras tres suscripciones libres de costo y a partir de la 4ta. se cobrará 2,50 CUP por cada una.</string>
+    <string name="agregar_amigo_precio">2.50 CUP</string>
+    <string name="eliminar_amigo">Eliminar las suscripciones es libre de costo, si desea agregar un nuevo número a partir del 4to. se cobrará 2,50 CUP por cada uno.</string>
+    <string name="eliminar_amigo_precio">Libre de Costo</string>
+    <!-- Info Cuentas -->
+    <string name="cuentas_message">Para actualizar sus cuentas debe deslizar hacia abajo, esperar a que la aplicación termine de sincronizar todos sus paquetes, bonos y saldo activos. En ocasiones puede que haya valores que no se actualicen, esto puede ocurrir debido a varios factores, uno de ellos es el problema en la red. Tenga en cuenta que usted está realizando varias consultas en segundos, por lo que su operador móvil puede devolver algunas consultas con «error» y la aplicación no lo tomará como información. Le recomendamos que vuelva a intentarlo.</string>
+    <string name="msg_report_action">Reportar</string>
+    <string name="msg_send_report">Envíe el error al desarrollador para darle solución</string>
+    <string name="msg_title_crash">Crash Reporte</string>
+    <string name="msg_subtitle_crash">Al parecer ocurrió algún error</string>
+    <string name="description_soporte">Contacte con el soporte vía correo electrónico, sea lo más claro a la hora de dar una sugerencia o enviar un reporte. Al enviar el reporte será redirigido a su aplicación de correo, no borre ningún dato que se genere automáticamente.</string>
+    <!-- Permisos descripcion -->
+    <string name="message_permissions_call_phone">La aplicación para poder realizar ésta acción necesita permisos otorgados por usted. Si fueron desactivados necesita ir a los ajustes para activarlos manualmente.</string>
+    <string name="message_permiso_llamadas">La aplicación necesita permiso para acceder al Teléfono del dispositivo para realizar las consultas USSD con los servicios de ETECSA.</string>
+    <string name="message_permiso_contactos">La aplicación necesita permiso para acceder a los Contactos del dispositivo para poder seleccionar los números agendados en su móvil y así poder transferir saldo o realizar algunas llamadas.</string>
+    <string name="message_permiso_mensajes">La aplicación necesita permiso para acceder a Mensajes para realizar el envío de SMS con algunos servicios de ETECSA.</string>
+    <string name="message_permiso_camara">La aplicación necesita permiso para acceder a la Cámara del dispositivo para realizar el escaneo QR de los cupones de recarga.</string>
+    <!-- Perfil -->
+    <string name="description_username">Este no es un nombre de usuario ni un PIN. Este nombre será usado solamente para dar una mejor experiencia al usuario.</string>
+    <string name="terminos_de_uso">Al descargar o usar la aplicación, estos términos se aplicarán automáticamente a usted; por lo tanto, debe asegurarse de leerlos detenidamente antes de usar la aplicación. No se le permite copiar ni modificar la aplicación, ninguna parte de la aplicación o nuestras marcas comerciales de ninguna manera. No está permitido intentar extraer el código fuente de la aplicación, y tampoco debe intentar traducir la aplicación a otros idiomas o hacer versiones derivadas. La aplicación en sí y todas las marcas comerciales, derechos de autor, derechos de bases de datos y otros derechos de propiedad intelectual relacionados con ella siguen perteneciendo a NOVA.\n\nNOVA se compromete a garantizar que la aplicación sea lo más útil y eficiente posible. Por ese motivo, nos reservamos el derecho de realizar cambios en la aplicación o cobrar por sus servicios, en cualquier momento y por cualquier motivo. Nunca le cobraremos por la aplicación o sus servicios sin dejarle muy claro exactamente lo que está pagando.\n\nLa aplicación SIMple almacena y procesa los datos personales que nos ha proporcionado para preveer nuestro Servicio. Es su responsabilidad mantener seguros su teléfono y el acceso a la aplicación. Por lo tanto, le recomendamos que no rootee su teléfono, que es el proceso de eliminar las restricciones y limitaciones de software impuestas por el sistema operativo oficial de su dispositivo. Podría hacer que su teléfono sea vulnerable a malware/virus/programas maliciosos, comprometer las funciones de seguridad de su teléfono y podría significar que la aplicación SIMple no funcionará correctamente o no funcionará en absoluto. \n\nDebe tener en cuenta que hay ciertas cosas de las que NOVA no se hace responsable. Ciertas funciones de la aplicación requerirán que la aplicación tenga una conexión a Internet activa. La conexión puede ser Wi-Fi o proporcionada por su proveedor de red móvil, pero NOVA no puede asumir la responsabilidad de que la aplicación no funcione con todas sus funciones si no tiene acceso a Wi-Fi o datos.\nSi está utilizando la aplicación fuera de un área con Wi-Fi, debe recordar que se seguirán aplicando los términos del acuerdo con su proveedor de red móvil. \nComo resultado, es posible que su proveedor de telefonía móvil le cobre el costo de los datos durante la duración de la conexión mientras accede a la aplicación u otros cargos de terceros. \nAl usar la aplicación, usted acepta la responsabilidad de dichos cargos. Si usted no es el pagador de la factura del dispositivo en el que está usando la aplicación, tenga en cuenta que asumimos que ha recibido permiso del pagador de la factura para usar la aplicación. \nDe la misma manera, NOVA no siempre puede asumir la responsabilidad por la forma en que usa la aplicación, es decir, debe asegurarse de que su dispositivo permanezca cargado; si se queda sin batería y no puede encenderlo para aprovechar el Servicio, NOVA no puede aceptar la responsabilidad. \n\nCon respecto a la responsabilidad de NOVA por el uso que haga de la aplicación, es importante tener en cuenta que, si bien nos esforzamos por garantizar que esté actualizada y sea correcta en todo momento, dependemos de terceros para proporcionar información para que podamos ponerla a su disposición. NOVA no acepta ninguna responsabilidad por cualquier pérdida, directa o indirecta, que experimente como resultado de confiar completamente en esta funcionalidad de la aplicación. En algún momento, es posible que deseemos actualizar la aplicación. \n\nLa aplicación está actualmente disponible en Android: los requisitos para el sistema (y para cualquier sistema adicional al que decidamos extender la disponibilidad de la aplicación) pueden cambiar, y deberá descargar las actualizaciones si desea seguir usando la aplicación. \nNOVA no promete que siempre actualizará la aplicación para que sea relevante para usted o funcione con la versión de Android que tiene instalada en su dispositivo. Sin embargo, usted se compromete a aceptar siempre las actualizaciones de la aplicación cuando se le ofrezcan. \nTambién es posible que deseemos dejar de proporcionar la aplicación y podemos dejar de usarla en cualquier momento sin notificarle la terminación. A menos que le indiquemos lo contrario, ante cualquier terminación: \n\n(a) los derechos y licencias que se le otorgaron en estos términos terminarán. \n\n(b) debe dejar de usar la aplicación.\n\nCambios a estos Términos y Condiciones: \nEs posible que actualicemos nuestros Términos y condiciones de vez en cuando. Por lo tanto, se le recomienda revisar esta página periódicamente para ver si hay cambios. Le notificaremos cualquier cambio publicando los nuevos Términos y Condiciones en esta página. \n\Estos términos y condiciones son efectivos a partir del 2023-03-06. \n\nContáctenos \nSi tiene alguna pregunta o sugerencia sobre nuestros Términos y condiciones, no dude en comunicarse con nosotros en simpleapp@zohomail.com.</string>
+    <string name="politicas_de_privacidad">NOVA creó la aplicación SIMple como una aplicación gratuita. Este SERVICIO es proporcionado por NOVA sin costo alguno y está destinado a ser utilizado tal cual.\n\nEsta página se utiliza para informar a los visitantes sobre nuestras políticas con respecto a la recopilación, el uso y la divulgación de Información personal si alguien decide utilizar nuestro Servicio.\n\nSi elige usar nuestro Servicio, entonces acepta la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el Servicio. No se usará ni se compartirá su información con nadie, excepto como se describe en esta Política de privacidad.\n\nLos términos utilizados en esta Política de privacidad tienen los mismos significados que en nuestros Términos y condiciones, a los que se puede acceder en SIMple a menos que se defina lo contrario en esta Política de privacidad.\n\n1. Recopilación y uso de información: \nPara una mejor experiencia, mientras usa nuestro Servicio, podemos solicitarle que nos proporcione cierta información de identificación personal. La información que solicitamos se conservará en su dispositivo y nosotros no la recopilaremos de ninguna manera.\n\nLa aplicación utiliza servicios de terceros que pueden recopilar información utilizada para identificarlo.\nEnlace a la política de privacidad de los proveedores de servicios de terceros utilizados por la aplicación:\n\n • ETECSA - https://www.etecsa.cu/es/politicas" \n\n2. Datos de registro: \nQueremos informarle que cada vez que usa nuestro Servicio, en caso de un error en la aplicación, se recopilan datos e información (a través de productos de terceros) en su teléfono llamado Datos de registro. Estos datos de registro pueden incluir información como el nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación cuando utiliza nuestro Servicio, la hora y la fecha de su uso del Servicio y otras estadísticas. \n\n3. Proveedores de servicio: \nPodemos emplear empresas e individuos de terceros debido a las siguientes razones:\n• Para facilitar nuestro Servicio.\n• Para proporcionar el Servicio en nuestro nombre\n• Para realizar servicios relacionados con el Servicio\n• Para ayudarnos a analizar cómo se utiliza nuestro Servicio.\n\nQueremos informar a los usuarios de este Servicio que estos terceros tienen acceso a su Información personal para realizar las tareas que se les asignan en nuestro nombre. Sin embargo, están obligados a no divulgar ni utilizar la información para ningún otro propósito. \n\n4. Seguridad: \nValoramos su confianza al proporcionarnos su información personal, por lo que nos esforzamos en utilizar medios comercialmente aceptables para protegerla. Pero recuerde que ningún método de transmisión por internet, o método de almacenamiento electrónico es 100% seguro y confiable, y no podemos garantizar su absoluta seguridad. \n\n5. Enlaces a otros sitios: \nEste Servicio puede contener enlaces a otros sitios. Si hace clic en un enlace de un tercero, será dirigido a ese sitio. Tenga en cuenta que estos sitios externos no son operados por nosotros. Por lo tanto, le recomendamos encarecidamente que revise la Política de privacidad de estos sitios web.\nNo tenémos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros. \n\n6. Privacidad de los niños: \nEstos Servicios no están dirigidos a personas menores de 13 años. No recopilamos a sabiendas información de identificación personal de niños menores de 13 años. Si usted es padre o tutor y sabe que su hijo nos ha proporcionado información personal, comuníquese nosotros para que pueda tomar las medidas necesarias. \n\n7. Cambios a esta Política de privacidad: \nPodemos actualizar nuestra Política de privacidad de vez en cuando. Por lo tanto, se le recomienda revisar esta página periódicamente para ver si hay cambios. Le notificaremos cualquier cambio publicando la nueva Política de privacidad en esta página.\n\nEsta política es efectiva a partir del 2023-03-08. \n\n8. Contáctenos: \nSi tiene alguna pregunta o sugerencia sobre nuestra Política de privacidad, no dude en comunicarse con nosotros en simpleapp@zohomail.com.</string>
+    <!-- About -->
+    <string name="title_list1">Alessandro Rodríguez</string>
+    <string name="subtitle_list1">Desarrollo y Diseño</string>
+    <string name="link_list1">https://www.twitter.com/esalessandrx</string>
+    <!-- 1 -->
+    <string name="title_list2">Rosanna Moreno</string>
+    <string name="subtitle_list2">Colaboradora activa de la aplicación</string>
+    <string name="link_list2">https://twitter.com/roclahy</string>
+    <!-- 3 -->
+    <string name="title_list3">Ordiel Victor</string>
+    <string name="subtitle_list3">Colaboración en el desarrollo</string>
+    <string name="link_list3">https://t.me/OrdielVictor</string>
+    <!-- 4 -->
+    <string name="title_list4">Harold Adan</string>
+    <string name="subtitle_list4">Colaboración y ortografía</string>
+    <string name="link_list4">http://t.me/haroldadan</string>
+    <string name="title_list5">Beta Tester</string>
+    <string name="subtitle_list5">Agradecer a todos los que han ayudado testeando la aplicación, ofreciendo parte de su tiempo. ¡Gracias!</string>
+    <string name="about_link_github">https://www.github.com/esalessandrxx</string>
+    <string name="about_link_telegram">https://t.me/simplecu</string>
+    <string name="about_link_twitter">https://www.twitter.com/simplecu</string>
+    <string name="about_link_facebook">https://www.facebook.com/AppSIMpleCu</string>
+</resources>

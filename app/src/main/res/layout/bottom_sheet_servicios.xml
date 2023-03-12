@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:orientation="vertical"
+    style="@stryle/Widget.Material3.BottomSheet">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/drag_handle_service" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <android.widget.TextView
+            android:id="@+id/text_title_servicio"
+            android:text=""
+            android:textAppearance="?textAppearanceTitleLarge"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/text_precio_service"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:textAppearance="?textAppearanceBodySmall"
+            android:layout_gravity="center_horizontal"
+            android:textSize="13dp"
+            android:clickable="false"
+            android:checked="true"
+            android:layout_marginBottom="4dp"
+            app:chipCornerRadius="20dp"
+            app:chipStartPadding="2dp"
+            app:chipEndPadding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" />
+
+        <android.widget.TextView
+            android:id="@+id/text_message_service"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:boxCornerRadiusBottomEnd="30dp"
+            android:layout_marginTop="10dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeWidth="0dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            android:hint="@string/hint_numero_transferir"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxStrokeWidthFocused="0dp"
+            style="?attr/textInputFilledStyle"
+            app:errorEnabled="true"
+            android:id="@+id/input_service_numero">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:ems="10"
+                android:inputType="text"
+                android:id="@+id/edit_service_numero" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_service"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="6dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+    android:id="@+id/nested_scroll_view">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <!-- Consulta saldo y pospago -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_margin="6dp"
+                app:cardElevation="1dp"
+                app:strokeWidth="0dp"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1.0"
+                android:id="@+id/card_consulta_saldo">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_height="24dp"
+                        android:layout_width="24dp"
+                        android:src="@drawable/ic_home_saldo"
+                        android:layout_margin="4dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?textAppearanceBodyMedium"
+                        android:layout_margin="4dp"
+                        android:text="@string/consulta_saldo" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_margin="6dp"
+                app:cardElevation="1dp"
+                app:strokeWidth="0dp"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1.0"
+                android:id="@+id/card_consulta_pospago">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_height="24dp"
+                        android:layout_width="24dp"
+                        android:src="@drawable/ic_home_pospago"
+                        android:layout_margin="4dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?textAppearanceBodyMedium"
+                        android:layout_margin="4dp"
+                        android:text="@string/consulta_pospago" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+        <!-- Consulta bonos y datos -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_margin="6dp"
+                app:cardElevation="1dp"
+                app:strokeWidth="0dp"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1.0"
+                android:id="@+id/card_consulta_bonos">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_height="24dp"
+                        android:layout_width="24dp"
+                        android:src="@drawable/ic_home_bonos"
+                        android:layout_margin="4dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?textAppearanceBodyMedium"
+                        android:layout_margin="4dp"
+                        android:text="@string/consulta_bonos" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_margin="6dp"
+                app:cardElevation="1dp"
+                app:strokeWidth="0dp"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1.0"
+                android:id="@+id/card_consulta_datos">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_height="24dp"
+                        android:layout_width="24dp"
+                        android:src="@drawable/ic_home_datos"
+                        android:layout_margin="4dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textAppearance="?textAppearanceBodyMedium"
+                        android:layout_margin="4dp"
+                        android:text="@string/consulta_datos" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/home"
+            layout="@layout/content_fragment_layout_home" />
+        
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

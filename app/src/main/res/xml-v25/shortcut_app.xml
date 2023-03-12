@@ -1,0 +1,10 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/shortcuts_disable"
+        android:shortcutLongLabel="@string/shorcuts_long_label"
+        android:shortcutShortLabel="@string/shorcuts_short_label" />
+
+</shortcuts>
