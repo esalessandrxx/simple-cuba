@@ -1,8 +1,8 @@
 # SIMple
 SIMple es una aplicación pensada para simplificar y mejorar 
 tu vida. 
-SIMple ofrece una serie de herramientas útiles para el usuario 
-como recargar, trabsferir saldo móvil o comorar 
+SIMple ofrece una serie de herramientas útiles para el usuario; 
+como recargar, transferir saldo móvil o comprar 
 paquetes de datos, entre otras.
 
 ## Características Notables 
