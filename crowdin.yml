@@ -1,5 +1,6 @@
 files:
-  - source: app/
-    translation: /res/%language%
-    translate_attributes: 0
+  - source: /resources/src/main/res/values/strings.xml
+    translation: /resources/src/main/res/values-%two_letters_code%/strings.xml
     content_segmentation: 0
+    translatable_elements:
+      - /resources/**
