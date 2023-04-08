@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="CrowdinId:14749">@color/md_theme_dark_primary</string>
+  <string name="CrowdinId:14751">@color/md_theme_dark_onPrimary</string>
+  <string name="CrowdinId:14753">@color/md_theme_dark_primaryContainer</string>
+  <string name="CrowdinId:14755">@color/md_theme_dark_onPrimaryContainer</string>
+  <string name="CrowdinId:14757">@color/md_theme_dark_secondary</string>
+  <string name="CrowdinId:14759">@color/md_theme_dark_onSecondary</string>
+  <string name="CrowdinId:14761">@color/md_theme_dark_secondaryContainer</string>
+  <string name="CrowdinId:14763">@color/md_theme_dark_onSecondaryContainer</string>
+  <string name="CrowdinId:14765">@color/md_theme_dark_tertiary</string>
+  <string name="CrowdinId:14767">@color/md_theme_dark_onTertiary</string>
+  <string name="CrowdinId:14769">@color/md_theme_dark_tertiaryContainer</string>
+  <string name="CrowdinId:14771">@color/md_theme_dark_onTertiaryContainer</string>
+  <string name="CrowdinId:14773">@color/md_theme_dark_error</string>
+  <string name="CrowdinId:14775">@color/md_theme_dark_errorContainer</string>
+  <string name="CrowdinId:14777">@color/md_theme_dark_onError</string>
+  <string name="CrowdinId:14779">@color/md_theme_dark_onErrorContainer</string>
+  <string name="CrowdinId:14781">@color/md_theme_dark_background</string>
+  <string name="CrowdinId:14783">@color/md_theme_dark_onBackground</string>
+  <string name="CrowdinId:14785">@color/md_theme_dark_surface</string>
+  <string name="CrowdinId:14787">@color/md_theme_dark_onSurface</string>
+  <string name="CrowdinId:14789">@color/md_theme_dark_surfaceVariant</string>
+  <string name="CrowdinId:14791">@color/md_theme_dark_onSurfaceVariant</string>
+  <string name="CrowdinId:14793">@color/md_theme_dark_outline</string>
+  <string name="CrowdinId:14795">@color/md_theme_dark_inverseOnSurface</string>
+  <string name="CrowdinId:14797">@color/md_theme_dark_inverseSurface</string>
+  <string name="CrowdinId:14799">@color/md_theme_dark_inversePrimary</string>
+  <string name="CrowdinId:14801">@android:color/transparent</string>
+  <string name="CrowdinId:14803">false</string>
+  <string name="CrowdinId:14805">false</string>
+  <string name="CrowdinId:14807">@android:color/transparent</string>
+  <string name="CrowdinId:14809">@font/product_sans_regular</string>
+  <string name="CrowdinId:14811">@style/ThemeOverlay.App.MaterialAlertDialog.Monet</string>
+</resources>
