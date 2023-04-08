@@ -1,0 +1,5 @@
+files:
+  - source: app/
+    translation: /res/%language%
+    translate_attributes: 0
+    content_segmentation: 0
