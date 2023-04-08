@@ -1,0 +1,6 @@
+targets:
+  - name: 'Language '
+    sources:
+      - app/src/main/res/values
+    file: resources/src/main/res/values-%two_letters_code%/strings.xml
+    format: android
