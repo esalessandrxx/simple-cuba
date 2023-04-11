@@ -57,3 +57,6 @@ diarias relacionadas con nuestra aplicaciones, como la instalación
 y configuración, así como el análisis o diagnóstico previo para 
 encontrar la causa raíz del problema detrás de cualquier 
 inquietud relacionada con SIMple.
+
+## Licencia
+[Ver licencia](https://github.com/esalessandrxx/simple-cuba/blob/master/README.md)
