@@ -1,3 +1,39 @@
+<p align="center">
+
+  <img src="./images/ic_launcher.png" alt="SIMple" width="80" height="80"/>
+
+</p>
+
+<!---VIEWS-->
+![](https://komarev.com/ghpvc/?username=SIMple&color=blueviolet)
+
+<!--SHIELDS-->
+
+<p align="center">
+
+<!-- Size -->
+
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/esalessandrxx/simple-cuba">
+
+<!-- License -->
+
+<img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
+
+<!-- Version -->
+
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/esalessandrxx/simple-cuba?color=green&label=release">
+
+<!-- Plataforma -->
+
+<img alt="plataforma" src="https://img.shields.io/badge/OS-Android-brightgreen">
+
+<!-- Social -->
+
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/simplecu?logoColor=black">
+
+</p>
+
+<!--Description-->
 # SIMple
 SIMple es una aplicación pensada para simplificar y mejorar 
 tu vida. 
