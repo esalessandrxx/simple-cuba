@@ -1,12 +1,13 @@
 <p align="center">
 
-  <img src="./images/ic_launcher.png" alt="SIMple" width="80" height="80"/>
-
-</p>
+  <img src="./template/IMG_20230321_165509_392.jpg" alt="SIMple" width="80" height="80"/>
 
 <!---VIEWS-->
-![](https://komarev.com/ghpvc/?username=SIMple&color=blueviolet)
 
+![](https://komarev.com/ghpvc/?username=simple-cuba&color=blueviolet)
+
+
+</p>
 <!--SHIELDS-->
 
 <p align="center">
